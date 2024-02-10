@@ -1,50 +1,31 @@
-# Template for CASE Project
-> Created by CASE Board 19/20
-
-**This is a template to be used by all projects in CASE. The template contains a folder structure that covers hardware and software projects. **   
-
-> A sample README by *fvcproductions* can be found [here](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46). 
-
-> A cheatsheet by *Adam Pritchard* for writing Markdown can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-## Goals 
-> Write something about the goals of this project and what you want to achieve. 
-> Can be something like this:
-```
-- Utilize more advanced control algorithm.
-    - Acceleration control
-        - Speed trajectory planner
-    - MPC - Model Predictive Conrol (*optional*)
-- Reach the moon 
-    - With two humans at least 
-- Added hardware and improvements
-    - 2 MW of power 
-    - nRF24 communication
-```
-
-## Directories 
-```
-Template
-├── document        # Generic document folder
-│   ├── datasheet   # Datasheet for hardware components  
-├── hardware        
-│   ├── cad         # 3D models
-│   │   └── stl     # 3D print files
-│   ├── pcb         # Schematic, layout and production files
-│   │   └── gerber  # Production files
-│   │   └── library # Library for project
-├── img             
-├── simulation      # Matlab + simulink simulations
-└── software        # Firmware files
-  ```
+# CASE LAB Smart screen
+> Created by CASE Board 21/22
   
 ## Installation
-> Here you can write about how you setup the project if there are some
+[Install magic mirror 2](https://docs.magicmirror.builders/getting-started/installation.html) on the raspberry pi behind the screen, make sure ssh is enabled.
+
+Make sure the default configuration is working, autostarting in the case of reboot, and that the screen is oriented the right way.
+
+Clone this repository:
+```sh
+git clone https://github.com/CASE-Association/smart_screen.git
+```
+
+Copy the custom mounts folder into the magic mirror directory:
+```sh
+cd smart_screen
+cp -r mounts/ ~/magicmirror/mounts/
+```
+
+Restart and enjoy!
 
 ## Usage
-> Here you write how to use the software or hardware. Can be about how you interface with the software, commands, things to know about when trying this project out. 
+
+Configuration (like adding more quotes to the top of the screen) can be found in the file "~/magicmirror/mounts/config/config.js".
+
+Documentation for magicmirror can be found ... 
 
 ## License
-> This template is created with MIT license and all projects with CASE should have this license. 
+MIT
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
