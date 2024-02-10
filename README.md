@@ -21,9 +21,9 @@ Restart and enjoy!
 
 ## Usage
 
-Configuration (like adding more quotes to the top of the screen) can be found in the file "~/magicmirror/mounts/config/config.js".
+Configuration (like adding more quotes to the top of the screen) can be found in the file `~/magicmirror/mounts/config/config.js`.
 
-Documentation for magicmirror can be found ... 
+Documentation for magicmirror can be found https://docs.magicmirror.builders/
 
 ## License
 MIT
