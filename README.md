@@ -31,7 +31,7 @@ The bash script that is suposed to be located in /var/spool/cron is:
 SHELL=/bin/bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
-00 * * * * /home/pi/git_script.sh
+15 * * * * bash /home/pi/git_script.sh
 ```
 
 
