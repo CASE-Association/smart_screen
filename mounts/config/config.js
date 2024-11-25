@@ -77,7 +77,7 @@ let config = {
 						"Be careful with the lab tools!", "Use PlatformIO instead of Arduino IDE", "It worked yesterday...",
 						"Turn on the music!", "Turn on Radiohead!", "Turn on Pink Floyd!", "Ask Andreas who will ask Adam",
 						"Become a member!", "Trying is the first step towards failure", "Bobby race tonight!", 
-						"60% of the time it works every time", 
+						"60% of the time it works every time","ඞ","Pay your membership fee!","Neopixels are the future!", 
 					],
 				},
 				updateInterval: "30000",

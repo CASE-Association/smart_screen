@@ -48,6 +48,8 @@ cp -r smart_screen/mounts/ ~/magicmirror/mounts/
 sudo reboot
 ``` 
 
+
+
 ## Usage
 
 Configuration (like adding more quotes to the top of the screen) can be found in the file `~/magicmirror/mounts/config/config.js`.
